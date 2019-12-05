@@ -1,0 +1,38 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #555;
+  font-weight: bold;
+  -webkit-text-decoration-line: overline; /* Safari */
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(1, 80, 93, 0.5);
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+.pr-nav{
+  margin-top: 80px;
+}
+.nav .nav-link {
+  color: #b71540;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+.nav .nav-link:hover{
+  -webkit-text-decoration-line: line-through;/* Safari */
+  text-decoration-line: line-through;
+  text-decoration-color: #b71540;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color:#fff;
+}
+.footer p{
+  margin-top: 8px;
+}
+.bg-custom{
+  background: #0a3d62;
+}

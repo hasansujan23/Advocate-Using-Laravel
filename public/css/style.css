@@ -1,0 +1,237 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6rem;
+  min-height: 100%;
+	position: relative;
+}
+.head{
+	top: 0;
+	background: #ddd;
+	height: 400px;
+	width: 100%;
+	z-index: -1;
+}
+.info{
+	margin-top: -80px;
+}
+
+.nfo{
+	margin-top: -80px;
+}
+.ownself{
+	background: #b71540;
+	height: 200px;
+	padding: 10px;
+}
+.ownself h3{
+	color: #fff;
+	font-family: Righteous;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.ownself ul li{
+	margin-left: -20px;
+	list-style: none;
+	color: #fff;
+	font-family: Ubuntu;
+
+}
+.pro-image{
+	background: #e58e26;
+	height: 200px;
+	z-index: 1;
+	padding: 10px;
+}
+.pro-image img{
+	width: 50%;
+	border-radius: 50%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	z-index: 1;
+}
+.associates{
+	background: #0a3d62;
+	height: 200px;
+	padding: 10px;
+	overflow-y: scroll;
+}
+.associates h3{
+	color: #fff;
+	font-family: Righteous;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.associates p{
+	color: #fff;
+	font-family: Ubuntu;
+	padding-left: 10px;
+	z-index: 1;
+	line-height: 1em;
+}
+.associates i{
+	color: #e58e26;
+}
+.associates p a{
+	padding-left: 8px;
+	text-decoration: none;
+	color: #fff;
+}
+.associates p a:hover{
+	color: #e58e26;
+}
+.mbody{
+	text-align: center;
+}
+.mbody img{
+	border-radius: 50%;
+	width: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mbody h3{
+	font-family: Righteous;
+	color: #0a3d62;
+}
+.mbody p{
+	color: #555;
+	line-height: 1em;
+	font-family: Ubuntu;
+}
+.case{
+	margin-top: 80px;
+}
+.cases h3{
+	font-family: Righteous;
+	color: #b71540;
+	text-align: center;
+}
+.line {
+	margin: auto;
+  width: 16%;
+  height: 4px;
+  background: #FFCC21;
+  position: relative;
+  -webkit-animation: mymove 7s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 7s infinite;
+}
+.ln {
+  margin:auto;
+	margin-top: 5px;
+  width: 18%;
+  height: 4px;
+  background: #007399;
+  position: relative;
+  -webkit-animation: mymove2 7s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove2 7s infinite;
+}
+@-webkit-keyframes mymove {
+  0% {width: 16%;}
+  50% {width: 0;}
+  100%{
+  width: 16%;
+  }
+}
+@-webkit-keyframes mymove2 {
+  0% {width: 0;}
+  50% {width: 18%;}
+  100%{
+  width: 0;
+  }
+}
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+.cstable{
+	margin-top: 25px;
+}
+@media only screen and (min-width: 768px){
+	.nfo{
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px){
+	.info{
+		display: none;
+	}
+	.pro-image img{
+		margin-top: -45px;
+	}
+	.ownself{
+		text-align: center;
+	}
+	.associates{
+		text-align: center;
+	}
+}
+.view i{
+	color: #e58e26;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.up i{
+	color: #007399;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.del i{
+	color: #b71540;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.arc i{
+	color: #28A745;
+	font-size: 24px;
+	padding-left: 10px;
+}
+/* Opponent Advocate list style*/
+
+.casa-details{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.case-intro h3{
+    text-transform: uppercase;
+    font-family: Righteous;
+    color:#666666;
+}
+.case-intro p{
+    color:#666666;
+    line-height: 3px;
+}
+.hrstyle{
+    margin-top: 5px;
+    border-top: 3px dotted  #666666;
+    width:70%;
+    margin-bottom: 30px;
+}
+.info-head p{
+    color:#666666;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.tab{
+    margin-bottom: 30px;
+}
+.okiamgood{
+    background: #343A40;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.okiamgood p{
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: #f1f1f1;
+}
+.tab-col{
+    color: #f1f1f1; 
+}
+

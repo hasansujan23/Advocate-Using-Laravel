@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+.title{
+	margin-top: 20px;
+}
+.title h3{
+	font-family: Righteous;
+	color: #007399;
+	text-align: center;
+}
+.line {
+	margin: auto;
+  width: 16%;
+  height: 4px;
+  background: #FFCC21;
+  position: relative;
+  -webkit-animation: mymove 7s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 7s infinite;
+}
+.ln {
+  margin:auto;
+	margin-top: 5px;
+  width: 18%;
+  height: 4px;
+  background: #007399;
+  position: relative;
+  -webkit-animation: mymove2 7s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove2 7s infinite;
+}
+@-webkit-keyframes mymove {
+  0% {width: 16%;}
+  50% {width: 0;}
+  100%{
+  width: 16%;
+  }
+}
+@-webkit-keyframes mymove2 {
+  0% {width: 0;}
+  50% {width: 18%;}
+  100%{
+  width: 0;
+  }
+}
+.own{
+  margin-top: 20px;
+  width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 30px;
+  background: #f1f1f1;
+}
+.associates{
+  margin-top: 20px;
+  width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 30px;
+  background: #f1f1f1;
+}
+.cstable{
+	margin-top: 25px;
+}
+
+.up i{
+	color: #007399;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.del i{
+	color: #b71540;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color:#fff;
+}
+.footer p{
+  margin-top: 8px;
+}
